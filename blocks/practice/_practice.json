@@ -1,1 +1,42 @@
+{
+  "definitions": [
+    {
+          "title": "Practice",
+          "id": "practice",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Practice",
+                  "model": "practice"
+                }
+              }
+            }
+          }
+    }
+  ],
+  "models": [
+    {
+    "id": "practice",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      }
+    ]
+  }
+  ],
+  "filters": []
+}
 
